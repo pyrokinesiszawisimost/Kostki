@@ -1,0 +1,27 @@
+import java.util.Random;
+
+public class Kas{
+    
+    public static void main(String[] args){
+        Random r = new Random();
+
+        Player player = new Player():
+        player.setName("Kasia");
+
+        while(true){
+            int numer = r.nextInt(6)+1;
+            System.out.println("Kostka :" + numer);
+            System.out.println("Napisz liczbę");
+            int guess = r.nextInt(6)+1;
+            System.out.println(player.getName() + ":" + guess);
+
+            if(guess==numer){
+                System.out.println("Prawidłowa odpowidź:");
+                 break;
+            }
+             else{
+                 System.out.println("Spróbuj ponownie");
+            }
+        }
+    }
+}
