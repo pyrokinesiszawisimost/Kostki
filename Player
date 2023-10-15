@@ -1,0 +1,11 @@
+import java.util.Random;
+
+public class Player {
+
+    private Random r = new Random();
+
+    public int guess(){
+        String name;
+        return r.nextInt(6)+1;
+    }
+}
