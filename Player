@@ -7,8 +7,12 @@ import java.util.Random;
 public class Player {
     private Random r = new Random();
     
-    private String name;
-    
+    private String name="Anonim";
+
+    public Player (){}
+    public Player (String name){
+         setName(name);
+    }
     public void setName(String name){
         if(name !=null && !name.isEmpty()){
         this.name = name;
