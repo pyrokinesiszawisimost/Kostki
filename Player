@@ -1,8 +1,22 @@
+package kas;
 import java.util.Random;
-
+/**
+ *
+ * @author Student
+ */
 public class Player {
-
     private Random r = new Random();
+    
+    private String name;
+    
+    public void setName(String name){
+        if(name !=null && !name.isEmpty()){
+        this.name = name;
+        }
+        else{
+                System.err.println("Imie mieprawidłowe");
+                }
+    }
 
     public int guess(){
         String name;
