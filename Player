@@ -1,9 +1,4 @@
-package kas;
 import java.util.Random;
-/**
- *
- * @author Student
- */
 public class Player {
     private Random r = new Random();
     
