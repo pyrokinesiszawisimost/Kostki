@@ -1,20 +1,23 @@
 import java.util.Random;
 public class Player {
     private Random r = new Random();
-    
+
     private String name="Anonim";
 
     public Player (){}
+    public String getName() {
+        return name;
+    }
     public Player (String name){
-         setName(name);
+        setName(name);
     }
     public void setName(String name){
         if(name !=null && !name.isEmpty()){
-        this.name = name;
+            this.name = name;
         }
         else{
-                System.err.println("Imie mieprawidłowe");
-                }
+            System.err.println("Imie mieprawidłowe");
+        }
     }
 
     public int guess(){
