@@ -2,9 +2,7 @@ import java.util.Random;
     public static void main(String[] args) {
         Random r = new Random();
 
-        Player player = new Player():
-        player.setName("Kasia");
-        player.setName("");
+       Player player = new PlayerHuman("Marian");
 
         while(true){
             int numer = r.nextInt(6)+1;
